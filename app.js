@@ -1,34 +1,73 @@
+//Bitwise
+
+//Logical Operator
+// let userAge = 19;
+// let isLicense = true;
+// let result = !(userAge > 18 && isLicense);
+// console.log(result);
+
+// let user = "Moderator";
+// console.log(user === "Admin" || user === "Moderator");
+
+// console.log(true && false);
+// console.log(false || true);
+
+// let isLoggedIn = true;
+// console.log(isLoggedIn && userAge > 18);
+
+//Comparison Operator
+// let first = 10;
+// let second = 15;
+// console.log(first == 10);
+// console.log(second == first);
+// console.log(first == "10");
+// console.log(first === "10");
+// console.log(25 > 20);
+// let marks = 66;
+// console.log(marks >= 35);
+
+// let user1Age = 29;
+// let user2Age = 14;
+// let user3Age = 18;
+// console.log(user1Age == 18);
+// console.log(user2Age == 18);
+// console.log(user3Age == 18);
+
+// let password1 = "qwerty";
+// let password2 = "asdfgh";
+// console.log(password1 === password2);
+
 //Arithmetic Operations
-let a1 = 10;
-let b1 = 20;
+// let a1 = 10;
+// let b1 = 20;
 
-let add = a1 + b1;
-let subtraction = b1 - a1;
-let mul = a1 * b1;
-let div = b1 / a1;
-let remainder = b1 % a1;
-console.log(
-  `ADD: ${add} SUB: ${subtraction} MUL: ${mul} DIV: ${div} MOD: ${remainder}`,
-);
+// let add = a1 + b1;
+// let subtraction = b1 - a1;
+// let mul = a1 * b1;
+// let div = b1 / a1;
+// let remainder = b1 % a1;
+// console.log(
+//   `ADD: ${add} SUB: ${subtraction} MUL: ${mul} DIV: ${div} MOD: ${remainder}`,
+// );
 
-//Average
-let englishMarks = 50;
-let frenchMarks = 60;
-let spanishMarks = 70;
+// //Average
+// let englishMarks = 50;
+// let frenchMarks = 60;
+// let spanishMarks = 70;
 
-let averageMarks = (englishMarks + frenchMarks + spanishMarks) / 3;
-console.log(averageMarks);
+// let averageMarks = (englishMarks + frenchMarks + spanishMarks) / 3;
+// console.log(averageMarks);
 
-//Hours into Mins
-// let hours = prompt("enter number of hours");
-// let mins = Number(hours) * 60;
-// console.log(`${hours} hours = ${mins} mins`);
+// //Hours into Mins
+// // let hours = prompt("enter number of hours");
+// // let mins = Number(hours) * 60;
+// // console.log(`${hours} hours = ${mins} mins`);
 
-//Area of rectangle
-let length = 10;
-let width = 5;
-let areaOfRectangle = length * width;
-console.log(areaOfRectangle);
+// //Area of rectangle
+// let length = 10;
+// let width = 5;
+// let areaOfRectangle = length * width;
+// console.log(areaOfRectangle);
 
 //square and cube of number
 // let number = prompt("Enter number to find it's Square and Cube");
@@ -36,56 +75,56 @@ console.log(areaOfRectangle);
 // let cube = Number(number) ** 3;
 // console.log(`For number ${number} square is ${square} and cube is ${cube}`);
 
-//Compound Operators
-let qwe = "Deepak";
-qwe += " Maurya";
-console.log(qwe);
+// //Compound Operators
+// let qwe = "Deepak";
+// qwe += " Maurya";
+// console.log(qwe);
 
-//2
-let asd = 10;
-console.log(asd);
-asd = 20;
-console.log(asd);
-asd += 5;
-console.log(asd);
-asd -= 2;
-console.log(asd);
-asd *= 3;
-console.log(asd);
+// //2
+// let asd = 10;
+// console.log(asd);
+// asd = 20;
+// console.log(asd);
+// asd += 5;
+// console.log(asd);
+// asd -= 2;
+// console.log(asd);
+// asd *= 3;
+// console.log(asd);
 
-//others
-console.log(aa);
-var aa = 8;
-console.log(typeof aa);
-if (typeof aa === "number") {
-  console.log("right");
-}
+// //others
+// console.log(aa);
+// var aa = 8;
+// console.log(typeof aa);
+// if (typeof aa === "number") {
+//   console.log("right");
+// }
 
-const name = "Deepak";
-let age = 24;
-console.log(`My name is ${name} and I am ${age} year old`);
-// name = "Maurya";
-age = 28;
-console.log(`now my age is ${age}`);
+// const name = "Deepak";
+// let age = 24;
+// console.log(`My name is ${name} and I am ${age} year old`);
+// // name = "Maurya";
+// age = 28;
+// console.log(`now my age is ${age}`);
 
-var var1 = 10;
-console.log(var1);
-var var1 = 20;
-console.log(var1);
+// var var1 = 10;
+// console.log(var1);
+// var var1 = 20;
+// console.log(var1);
 
-console.log("Hello, this is from js file");
-console.log(
-  "My name is Deepak, my hobbies are: Writing, Gaming and I am 28 year old",
-);
+// console.log("Hello, this is from js file");
+// console.log(
+//   "My name is Deepak, my hobbies are: Writing, Gaming and I am 28 year old",
+// );
 
-console.error("This is Error");
-console.warn("This is warning");
+// console.error("This is Error");
+// console.warn("This is warning");
 
-const users = [
-  { id: 1, name: "Deepak" },
-  { id: 2, name: "Rishabh" },
-];
-console.table(users);
+// const users = [
+//   { id: 1, name: "Deepak" },
+//   { id: 2, name: "Rishabh" },
+// ];
+// console.table(users);
 
 // console.clear(); //clears the console
 
