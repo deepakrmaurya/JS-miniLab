@@ -36,6 +36,24 @@ console.log(areaOfRectangle);
 // let cube = Number(number) ** 3;
 // console.log(`For number ${number} square is ${square} and cube is ${cube}`);
 
+//Compound Operators
+let qwe = "Deepak";
+qwe += " Maurya";
+console.log(qwe);
+
+//2
+let asd = 10;
+console.log(asd);
+asd = 20;
+console.log(asd);
+asd += 5;
+console.log(asd);
+asd -= 2;
+console.log(asd);
+asd *= 3;
+console.log(asd);
+
+//others
 console.log(aa);
 var aa = 8;
 console.log(typeof aa);
