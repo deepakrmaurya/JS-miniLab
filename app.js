@@ -1,3 +1,39 @@
+// //Type Conversion
+console.log(Boolean(0));
+console.log(Boolean("0"));
+console.log(Boolean(""));
+console.log(Boolean([]));
+console.log(Boolean(null));
+
+// let num = "100";
+// console.log(num + 2);
+// console.log(Number(num) + 2);
+// let num1 = 500;
+// console.log(num1 + 2);
+// console.log(String(num1) + 2);
+
+// let pi = "3.14";
+// console.log(parseFloat(pi));
+
+// let px = "42px";
+// console.log(parseInt(px));
+
+// console.log(Boolean(""));
+
+// console.log("5" + 2 + 3);
+// console.log("5" - 2);
+
+//Ternary  Operator
+// let number = 21;
+// console.log(number % 2 === 0 ? "even" : "odd");
+
+// let login = true;
+// console.log(login ? "logged in" : "logged out");
+
+// let num1 = 5;
+// let num2 = 10;
+// console.log(num1 > num2 ? "num1 is greater" : "num2 is greater");
+
 //Bitwise
 
 //Logical Operator
