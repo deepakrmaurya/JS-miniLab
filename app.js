@@ -1,9 +1,47 @@
+//Debugging and using breakpoints
+let a = 10;
+let b = 20;
+let sum = a + b;
+debugger;
+console.log(sum);
+
+//User Input
+// let num1 = Number(prompt("Enter Number:"));
+// let num2 = Number(prompt("Enter Number:"));
+
+// console.log(num1 + num2);
+
+// let age = prompt("Enter Age");
+// console.log(typeof age); //prompt always gives string - so wrap the prompt in Number() if you need a number to perform operations on it
+
+//Template Litrals
+// let firstName = "Deepak";
+// let lastName = "Maurya";
+// let age = 28;
+// let city = "Mumbai";
+
+// console.log(
+//   `Hi, my name is ${firstName} ${lastName}, I am ${age} year old. I live in ${city}`,
+// );
+
+// console.log(`${2 + 2}`);
+
+//WE CAN CALL A FUNCTION AS WELL INSIDE TEMPLATE LITERALS
+// const greet = () => {
+//   console.log("Hello");
+// };
+// console.log(`${greet()}`);
+
+// console.log(`Thank You
+//     Thank You
+//         Thank You`);
+
 // //Type Conversion
-console.log(Boolean(0));
-console.log(Boolean("0"));
-console.log(Boolean(""));
-console.log(Boolean([]));
-console.log(Boolean(null));
+// console.log(Boolean(0));
+// console.log(Boolean("0"));
+// console.log(Boolean(""));
+// console.log(Boolean([]));
+// console.log(Boolean(null));
 
 // let num = "100";
 // console.log(num + 2);
