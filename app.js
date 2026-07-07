@@ -1,9 +1,62 @@
+//Logic Building
+
+//isEven Function
+// const isEven = (number) => {
+//   if (number % 2 === 0) {
+//     console.log(`${number} is Even`);
+//   } else {
+//     console.log(`${number} is Odd`);
+//   }
+// };
+
+// isEven(41);
+
+//print all the odd numbers from 1 to 20
+// for (let i = 1; i <= 20; i++) {
+//   if (i % 2 !== 0) {
+//     console.log(i);
+//   }
+// }
+
+//print all the even numbers from 1 to 20
+// for (let i = 1; i <= 20; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+//Array numbers only even count
+// let a = [34, 25, 17, 15, 65, 88];
+// let count = 0;
+// for (let i = 0; i < a.length; i++) {
+//   if (a[i] % 2 === 0) {
+//     console.log(`${a[i]} is Even`);
+//     count++;
+//   } else {
+//     console.log(`${a[i]} is Odd`);
+//   }
+// }
+// console.log(count);
+
+//Array numbers even odd
+// let a = [34, 25, 17, 15, 65];
+// for (let i = 0; i < a.length; i++) {
+//   if (a[i] % 2 === 0) {
+//     console.log(`${a[i]} is Even`);
+//   } else {
+//     console.log(`${a[i]} is Odd`);
+//   }
+// }
+
+// let a = Number(prompt("Enter a number"));
+// console.log(a % 2 === 0 ? "Even" : "Odd");
+
 //Debugging and using breakpoints
-let a = 10;
-let b = 20;
-let sum = a + b;
-debugger;
-console.log(sum);
+// let a = 10;
+// let b = 20;
+// let sum = a + b;
+// debugger;
+// console.log(sum);
 
 //User Input
 // let num1 = Number(prompt("Enter Number:"));
