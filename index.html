@@ -3,12 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="app.js" defer></script>
     <title>Document</title>
   </head>
   <body>
     Hello, This is JS Revision
-    <h1>Temperature Converter</h1>
+
+    <h1>Calculator</h1>
+    <div id="texts">
+      Num1: <input type="text" name="" id="num1" /> Num2:
+      <input type="text" name="" id="num2" /> Result:
+      <label for="" id="labelBox"></label>
+    </div>
+    <br />
+    <div id="buttons" style="margin: 20px">
+      <button type="button" id="add" value="add">+</button>
+      <button type="button" id="sub" value="sub">-</button>
+      <button type="button" id="mul" value="mul">*</button>
+      <button type="button" id="div" value="div">/</button>
+      <button type="button" id="mod" value="mod">modulus</button>
+      <button type="button" id="percent" value="percent">Percentage</button>
+    </div>
+
+    <!-- <h1>Currency Converter</h1>
+    <select name="" id="actualCurrency">
+      <option value="INR" id="INR">INR ₹</option>
+      <option value="USD" id="USD">USD $</option>
+      <option value="EUR" id="EUR">EUR €</option>
+    </select>
+    <input type="text" name="" id="textboxValue" />
+    <select name="" id="convertCurrencyTo">
+      <option value="INR" id="INR">INR ₹</option>
+      <option value="USD" id="USD">USD $</option>
+      <option value="EUR" id="EUR">EUR €</option>
+    </select>
+    <button type="submit" id="convertBtn">Convert</button>
+    <br />
+    <label for="" id="label"></label> -->
+
+    <!-- <h1>Temperature Converter</h1>
     <input type="text" name="" id="textbox1" />
     <select id="converter">
       <option value="ctof">C to F</option>
@@ -16,6 +50,6 @@
     </select>
     <button type="submit" id="convert">Convert</button>
     <br />
-    <label style="border: 1px solid black" id="convertedTemp"></label>
+    <label style="border: 1px solid black" id="convertedTemp"></label> -->
   </body>
 </html>

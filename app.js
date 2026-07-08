@@ -1,27 +1,98 @@
 //Logic Building
 
+//Age Calculator TODO: develop the advnace verison of it
+// let currentYear = new Date().getFullYear();
+// let userBirthYear = 1998;
+
+// let age = currentYear - userBirthYear;
+// console.log(age);
+
+//Currency Converter TODO: develop a advance and multi currency converter
+// document.getElementById("convertBtn").addEventListener("click", function () {
+//   let amount = document.getElementById("textboxValue").value;
+
+//   let actualCurrency = document.getElementById("actualCurrency").value;
+
+//   let convertCurrencyTo = document.getElementById("convertCurrencyTo").value;
+
+//   let label = document.getElementById("label");
+
+//   if (
+//     (actualCurrency === "USD" && convertCurrencyTo === "USD") ||
+//     (actualCurrency === "INR" && convertCurrencyTo === "INR")
+//   ) {
+//     console.error("converting currency can't be same");
+//     label.textContent = "Converting Currency can't be same";
+//   }
+
+//   if (actualCurrency === "USD" && convertCurrencyTo === "INR") {
+//     let convertedAmount = (amount * 95.56).toFixed(2);
+//     label.textContent = convertedAmount + " ₹";
+//   }
+
+//   if (actualCurrency === "INR" && convertCurrencyTo === "USD") {
+//     let convertedAmount = (amount / 95.56).toFixed(2);
+//     label.textContent = convertedAmount + " $";
+//   }
+// });
+
+//Percentage Calulator TODO: develop a advance one
+// let englishMarks = Number(prompt("Enter English Marks"));
+// let scienceMarks = Number(prompt("Enter Science Marks"));
+// let mathMarks = Number(prompt("Enter Math Marks"));
+// let socialStudiesMarks = Number(prompt("Enter Social Studies Marks"));
+// let historyMarks = Number(prompt("Enter History Marks"));
+
+// if (
+//   englishMarks > 0 ||
+//   englishMarks > 100 ||
+//   scienceMarks > 0 ||
+//   scienceMarks > 100 ||
+//   mathMarks > 0 ||
+//   mathMarks > 100 ||
+//   socialStudiesMarks > 0 ||
+//   socialStudiesMarks > 100 ||
+//   historyMarks > 0 ||
+//   historyMarks > 100
+// ) {
+//   console.error("Please insert valid marks");
+// } else {
+//   let totalMarksObtained = englishMarksenglishMarks;
+//   englishMarks + scienceMarks + mathMarks + socialStudiesMarks + historyMarks;
+
+//   let totalMarks = 500;
+
+//   let percentage = ((totalMarksObtained / totalMarks) * 100).toFixed(2);
+//   console.log(percentage);
+// }
+
 //Temperature Converter
-document.getElementById("convert").addEventListener("click", function () {
-  let textbox1 = document.getElementById("textbox1").value;
-  //   let textvalue1 = textbox1.value;
+// document.getElementById("convert").addEventListener("click", function () {
+//   let textbox1 = document.getElementById("textbox1").value;
+//   //   let textvalue1 = textbox1.value;
 
-  let converterId = document.getElementById("converter").value;
-  //   let converterdIdValue = converterId.value;
+//   let converterId = document.getElementById("converter").value;
+//   //   let converterdIdValue = converterId.value;
 
-  let convertedTemp = document.getElementById("convertedTemp");
+//   let convertedTemp = document.getElementById("convertedTemp");
 
-  if (converterId === "ctof") {
-    let temp = ((textbox1 * 9) / 5 + 32).toFixed(2);
-    convertedTemp.textContent = temp;
-    console.log(typeof temp);
-  }
+//   if (isNaN(textbox1)) {
+//     convertedTemp.textContent = "Please Enter a valid temperature value";
+//     return;
+//   }
 
-  if (converterId === "ftoc") {
-    let temp = (((textbox1 - 32) * 5) / 9).toFixed(2);
-    convertedTemp.textContent = temp;
-    console.log(typeof temp);
-  }
-});
+//   if (converterId === "ctof") {
+//     let temp = ((textbox1 * 9) / 5 + 32).toFixed(2);
+//     convertedTemp.textContent = temp;
+//     console.log(typeof temp);
+//   }
+
+//   if (converterId === "ftoc") {
+//     let temp = (((textbox1 - 32) * 5) / 9).toFixed(2);
+//     convertedTemp.textContent = temp;
+//     console.log(typeof temp);
+//   }
+// });
 
 //Leap Year OR NOT
 // const leapYearFinder = (year) => {
