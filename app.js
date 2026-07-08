@@ -1,5 +1,28 @@
 //Logic Building
 
+//Temperature Converter
+document.getElementById("convert").addEventListener("click", function () {
+  let textbox1 = document.getElementById("textbox1").value;
+  //   let textvalue1 = textbox1.value;
+
+  let converterId = document.getElementById("converter").value;
+  //   let converterdIdValue = converterId.value;
+
+  let convertedTemp = document.getElementById("convertedTemp");
+
+  if (converterId === "ctof") {
+    let temp = ((textbox1 * 9) / 5 + 32).toFixed(2);
+    convertedTemp.textContent = temp;
+    console.log(typeof temp);
+  }
+
+  if (converterId === "ftoc") {
+    let temp = (((textbox1 - 32) * 5) / 9).toFixed(2);
+    convertedTemp.textContent = temp;
+    console.log(typeof temp);
+  }
+});
+
 //Leap Year OR NOT
 // const leapYearFinder = (year) => {
 //   if (year % 400 === 0 || (year % 100 !== 0 && year % 4 === 0)) {

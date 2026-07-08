@@ -3,10 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
     <title>Document</title>
   </head>
   <body>
     Hello, This is JS Revision
+    <h1>Temperature Converter</h1>
+    <input type="text" name="" id="textbox1" />
+    <select id="converter">
+      <option value="ctof">C to F</option>
+      <option value="ftoc">F to C</option>
+    </select>
+    <button type="submit" id="convert">Convert</button>
+    <br />
+    <label style="border: 1px solid black" id="convertedTemp"></label>
   </body>
 </html>
