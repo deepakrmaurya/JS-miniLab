@@ -1,5 +1,29 @@
 //Logic Building
 
+//Calculator
+addEventListener("load", function () {
+  let num1Value = document.getElementById("num1").value;
+  let num2Value = document.getElementById("num2").value;
+
+  let result = document.getElementById("labelBox");
+
+  let addition = document.getElementById("add").value;
+  let subtraction = document.getElementById("sub").value;
+  let multiply = document.getElementById("mul").value;
+  let division = document.getElementById("div").value;
+  let modulus = document.getElementById("mod").value;
+  let percentage = document.getElementById("percent").value;
+
+  let operator = document.getElementById("buttons").value;
+  console.log(operator);
+
+  if (operator === "add") {
+    let opreations = num1 + num2;
+    console.log(num1 + " " + num2);
+    result.textContent = opreations;
+  }
+});
+
 //Age Calculator TODO: develop the advnace verison of it
 // let currentYear = new Date().getFullYear();
 // let userBirthYear = 1998;
