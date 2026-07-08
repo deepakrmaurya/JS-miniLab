@@ -1,5 +1,84 @@
 //Logic Building
 
+//Leap Year OR NOT
+// const leapYearFinder = (year) => {
+//   if (year % 400 === 0 || (year % 100 !== 0 && year % 4 === 0)) {
+//     console.log("It's a Leap Year");
+//   } else {
+//     console.log("Not a Leap Year");
+//   }
+// };
+
+// leapYearFinder(2028);
+// leapYearFinder(2100);
+// leapYearFinder(2400);
+
+//Create a function checkNumber(number) (after learning functions).
+// const checkNumber = (number) => {
+//   if (number > 0) {
+//     console.log("Positive");
+//   } else if (number < 0) {
+//     console.log("Negative");
+//   } else if (number == 0) {
+//     console.log("Zero");
+//   } else {
+//     console.log("Please enter a valid number");
+//   }
+// };
+
+// checkNumber(124);
+// checkNumber(-2348);
+// checkNumber(000);
+// checkNumber("asdnas");
+
+// Count positive and negative numbers in a list after( learning arrays and loops).
+// const numberList = [
+//   234, -234, 54, 324, -65, -567, 36, 0, -345, 0, 45.3, -65.2, -0,
+// ];
+// let positiveCount = 0;
+// let negativeCount = 0;
+// let zeroCount = 0;
+// for (let i = 0; i < numberList.length; i++) {
+//   if (numberList[i] > 0) {
+//     positiveCount++;
+//     console.log(numberList[i]);
+//   } else if (numberList[i] < 0) {
+//     negativeCount++;
+//     console.log(numberList[i]);
+//   } else {
+//     zeroCount++;
+//     console.log(numberList[i]);
+//   }
+// }
+
+// console.log(
+//   `Positive Count: ${positiveCount}, Negative Count: ${negativeCount}, Zeros: ${zeroCount}`,
+// );
+
+//is the number positive, negative or zero
+// let number = ;
+// if (number > 0) {
+//   console.log("number is positive");
+// } else if (number < 0) {
+//   console.log("number is negative");
+// } else if (number == 0) {
+//   console.log("NUmber is zero");
+// } else {
+//   console.log("Not a valid number, please enter a valid number");
+// }
+
+//is the number positive, negative or zero with ternary opreator
+// let number = -342;
+// console.log(
+//   number > 0
+//     ? "Positive"
+//     : number < 0
+//       ? "Negative"
+//       : number == 0
+//         ? "Zero"
+//         : "Please enter a valid number",
+// );
+
 //isEven Function
 // const isEven = (number) => {
 //   if (number % 2 === 0) {
