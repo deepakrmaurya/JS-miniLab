@@ -1,5 +1,147 @@
 //The IF, The ESLE IF and The ELSE
 
+// Topic: Level 3 – Intermediate
+// Find the second largest among three numbers.
+// const secondLargestNumber = (num1, num2, num3) => {
+//   if ((num1 > num2 && num1 < num3) || (num1 > num3 && num1 < num2)) {
+//     console.log(`${num1} is second largest`);
+//   } else if ((num2 > num1 && num2 < num3) || (num2 < num1 && num2 > num3)) {
+//     console.log(`${num2}  is second largest`);
+//   } else if ((num3 > num1 && num3 < num2) || (num3 < num1 && num3 > num2)) {
+//     console.log(`${num2}  is second largest`);
+//   } else {
+//     console.error("Error");
+//   }
+// };
+
+// secondLargestNumber(1, 2, 3);
+// secondLargestNumber(10, 20, 30);
+// secondLargestNumber(30, 60, 90);
+// secondLargestNumber(-1, 10, 20);
+// secondLargestNumber(-10, -90, -100);
+
+// Check whether three sides can form a triangle.
+
+// const canFormATriangle = (s1, s2, s3) => {
+//   if (s1 + s2 > s3 && s1 + s3 > s2 && s2 + s3 > s1) {
+//     console.log("Triangle can be formed");
+//   } else {
+//     console.log("Triangle can not be formed");
+//   }
+// };
+
+// canFormATriangle(2, 3, 4);
+// canFormATriangle(3, 2, 10);
+
+//forming triangle using degrees
+// const canFormATriangle = (n1, n2, n3) => {
+//   if (n1 + n2 + n3 === 180) {
+//     console.log("Triangle can be formed");
+//   } else {
+//     console.log("Triangle can not form");
+//   }
+// };
+// canFormATriangle(60, 60, 60);
+// canFormATriangle(20, 80, 80);
+// canFormATriangle(90, 90, 90);
+// canFormATriangle(10, 20, 30);
+
+// Classify a triangle:Equilateral, Isosceles, Scalene
+// const triangleType = (d1, d2, d3) => {
+//   if (d1 == 60 && d2 == 60 && d3 == 60) {
+//     console.log("Equilateral Triangle");
+//   } else if (d1 == d2 || d1 == d3 || d2 == d3) {
+//     console.log("Isosceles Triangle");
+//   } else if (d1 == 90 || d2 == 90 || d3 == 90) {
+//     console.log("Scalene Triangle");
+//   } else {
+//     console.error("Error");
+//   }
+// };
+
+// triangleType(60, 60, 60);
+// triangleType(30, 60, 90);
+// triangleType(80, 80, 20);
+
+// Calculate electricity bill using slabs.
+// const electricityBill = (billSlab) => {
+//   if (billSlab >= 0 && billSlab <= 100) {
+//     console.log(`Bill Amount for ${billSlab} will be ${billSlab * 5}`);
+//   } else if (billSlab >= 101 && billSlab <= 200) {
+//     console.log(`Bill Amount for ${billSlab} will be ${billSlab * 10}`);
+//   } else if (billSlab > 200) {
+//     console.log(`Bill Amount for ${billSlab} will be ${billSlab * 15}`);
+//   } else {
+//     console.error("Something Went Wrong");
+//   }
+// };
+
+// electricityBill(10);
+// electricityBill(110);
+// electricityBill(300);
+// electricityBill("ten");
+
+// Calculate income tax using slabs.
+// const incomeTax = (income) => {
+//   if (income <= 250000) {
+//     console.log(`For ${income} No tax`);
+//   } else if (income > 250001 && income <= 500000) {
+//     console.log(`For ${income} Tax: ${(income * 5) / 100}`);
+//   } else if (income > 500001 && income <= 1000000) {
+//     console.log(`For ${income} Tax: ${(income * 20) / 100}`);
+//   } else if (income > 1000000) {
+//     console.log(`For ${income} Tax: ${(income * 30) / 100}`);
+//   } else {
+//     console.error("Something went wrong");
+//   }
+// };
+
+// incomeTax(350000);
+// incomeTax(0);
+// incomeTax(200000000);
+// incomeTax(125000);
+// incomeTax("None");
+// incomeTax(750000);
+
+// Check if a person can apply for a loan: Age, Salary, Credit Score
+// function loanApproval(age, salary, creditScore) {
+//   if (age >= 18 && salary >= 30000 && creditScore >= 700) {
+//     console.log("Loan Approved");
+//   } else {
+//     console.log("Sorry, you are not eligible for loan");
+//   }
+// }
+
+// loanApproval(18, 30000, 700);
+// loanApproval(17, 70000, 1000);
+// loanApproval(28, 0, 0);
+// loanApproval(32, 29999, 800);
+// loanApproval(50, 60000, 900);
+
+// Validate a password:Minimum length, Contains number,Contains uppercase
+// const passwordValidation = (password) => {
+//   let characters = password.split("");
+//   let containsNumber = characters.some((char) => char >= "0" && char <= "9");
+//   let containsUppercase = characters.some((char) => char >= "A" && char <= "Z");
+//   if (password.length > 8 && containsNumber && containsUppercase) {
+//     console.log("Password Approved");
+//   } else {
+//     console.log("Weak Password, Please change");
+//   }
+// };
+
+// passwordValidation("saAda12A3sdasd");
+// passwordValidation("sa");
+// passwordValidation("Hello1234");
+// passwordValidation("hello1234");
+// passwordValidation("hellooooooo");
+// passwordValidation("hello");
+
+// Note: for later
+// Check if a user gets free shipping based on membership and cart value.
+// Determine a student's scholarship based on marks and attendance.
+// Create a movie ticket booking rule based on age and show time.
+
 //Topic: Level 2 – Beginner+ (Using else if)
 // Build a grading system (A, B, C, D, F).
 // const gradingSystem = (marks) => {
