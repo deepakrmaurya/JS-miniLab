@@ -1,3 +1,303 @@
+// Ternary Operator
+// Easy
+// Print "Even" or "Odd".
+// let num = 10;
+// console.log(num % 2 === 0 ? "Even Number" : "Odd Number");
+
+// Print "Adult" or "Minor".
+// let age = 17;
+// console.log(age >= 18 ? "Adult" : "Minor");
+
+// Print "Positive" or "Negative".
+// let num = -7;
+// console.log(num > 0 ? "Positive" : "Negative");
+
+// Print "Pass" or "Fail".
+// let marks = 78;
+// console.log(marks >= 35 ? "Pass" : "Fail");
+
+// Print "Eligible" or "Not Eligible" for voting.
+// console.log(age >= 18 ? "Eligible for voting" : "Not Eligible for voting");
+
+// Medium
+// Find the larger of two numbers.
+// let num1 = 10;
+// let num2 = 5;
+// console.log(num1 > num2 ? num1 + " is Greater" : num2 + " is Greater");
+
+// Check if a number is divisible by 5.
+// let num = 40;
+// console.log(num % 5 === 0 ? "Divisible by 5" : "Not Divisible by 5");
+
+// Print "Free Shipping" or "Paid Shipping".
+// const cartValue = 399;
+// console.log(cartValue >= 500 ? "Free Shipping" : "Paid Shipping");
+
+// Display "In Stock" or "Out of Stock".
+// const stock = 10;
+// console.log(stock > 0 ? "In Stock" : "Out Of Stock");
+
+// Show "Morning" or "Evening" greeting based on the hour.
+// const currentTime = new Date().getHours();
+// console.log(currentTime > 17 ? "Evening" : "Morning");
+
+//Nested If
+//pending questions
+// Check if a user is logged in, then display their profile.
+// Check if a product is in stock, then check if it has a discount.
+// College admission:Age check,Marks check,Document verification
+// Online shopping:Login,Cart not empty,Payment successful
+// Flight boarding:Passport,Visa,Security clearance
+// Gym membership:Age,Medical certificate,Membership payment
+
+// Easy
+// Check if a person is eligible to vote, then check if they have a voter ID.
+// const voterId = (age, isVoterId) => {
+//   if (age >= 18) {
+//     if (isVoterId) {
+//       console.log("You are Eligible");
+//     }
+//   }
+// };
+// voterId(18, true);
+// voterId(23, false);
+
+// Check if a student passed, then check if they scored above 75 for distinction.
+// const studentPassed = (marks) => {
+//   if (marks > 35) {
+//     if (marks > 75) {
+//       console.log("Passed with distinction");
+//     }
+//   }
+// };
+
+// studentPassed(45);
+// studentPassed(85);
+
+// Check if a number is positive, then check if it's even.
+// const positiveEvenNumber = (number) => {
+//   if (number > 0) {
+//     if (number % 2 === 0) {
+//       console.log("It's a Positive Even Number");
+//     }
+//   }
+// };
+
+// positiveEvenNumber(23);
+// positiveEvenNumber(20);
+// positiveEvenNumber(-2);
+
+// Medium
+// ATM simulation: Verify PIN,Check balance,Withdraw amount
+// const atmSimulation = (pin, balance, withdraw) => {
+//   if (pin == 1234) {
+//     console.log("Profile: User");
+//     if (balance) {
+//       console.log(`you have ${balance}$`);
+//       if (balance > withdraw) {
+//         console.log(
+//           `you have withdrawn money ${withdraw} and left with ${balance - withdraw}`,
+//         );
+//       }
+//     }
+//   }
+// };
+
+// atmSimulation(1234, 20000, 3500);
+// atmSimulation(1111, 30000, 20000);
+// atmSimulation(1234, 20000, 35000);
+
+// Switch Loops
+// Print the day of the week based on a number (1–7).
+// const weekDays = (num) => {
+//   switch (num) {
+//     case 1:
+//       console.log("Sunday");
+//       break;
+//     case 2:
+//       console.log("Monday");
+//       break;
+//     case 3:
+//       console.log("Tuesday");
+//       break;
+//     case 4:
+//       console.log("Wednesday");
+//       break;
+//     case 5:
+//       console.log("Thursday");
+//       break;
+//     case 6:
+//       console.log("Friday");
+//       break;
+//     case 7:
+//       console.log("Saturday");
+//       break;
+
+//     default:
+//       console.log("Please enter number from 1 to 7");
+//       break;
+//   }
+// };
+// weekDays(3);
+// weekDays(1);
+// weekDays(6);
+// weekDays(5);
+// weekDays(2);
+// weekDays(4);
+// weekDays(7);
+
+// Print the month name based on a month number.
+
+// const monthNames = (month) => {
+//   switch (month) {
+//     case 1:
+//       console.log("January");
+//       break;
+//     case 2:
+//       console.log("February");
+//       break;
+//     case 3:
+//       console.log("March");
+//       break;
+//     case 4:
+//       console.log("April");
+//       break;
+//     case 5:
+//       console.log("May");
+//       break;
+
+//     case 6:
+//       console.log("June");
+//       break;
+//     case 7:
+//       console.log("July");
+//       break;
+//     case 8:
+//       console.log("August");
+//       break;
+//     case 9:
+//       console.log("September");
+//       break;
+//     case 10:
+//       console.log("October");
+//       break;
+//     case 11:
+//       console.log("November");
+//       break;
+//     case 12:
+//       console.log("December");
+//       break;
+//     default:
+//       console.log("Please enter number from 1 to 12");
+//   }
+// };
+// monthNames(5);
+// monthNames(1);
+// monthNames(12);
+// monthNames(13);
+
+// Create a calculator using +, -, *, /.
+// const switchCalculator = (num1, num2, operator) => {
+//   switch (operator) {
+//     case "+":
+//       console.log(`${num1} + ${num2} = ${num1 + num2}`);
+//       break;
+//     case "-":
+//       console.log(`${num1} - ${num2} = ${num1 - num2}`);
+//       break;
+//     case "*":
+//       console.log(`${num1} * ${num2} = ${num1 * num2}`);
+//       break;
+//     case "/":
+//       console.log(`${num1} / ${num2} = ${num1 / num2}`);
+//       break;
+//     default:
+//       console.error("Please select opreator between + - * / only");
+//   }
+// };
+
+// switchCalculator(10, 5, "+");
+// switchCalculator(10, 45, "-");
+// switchCalculator(100, 23, "*");
+// switchCalculator(240, 12, "/");
+
+// Print a traffic signal action: Red → Stop, Yellow → Slow, Green → Go
+// function signal(lightColor) {
+//   switch (lightColor) {
+//     case "RED":
+//       console.log("STOP");
+//       break;
+//     case "YELLOW":
+//       console.log("SLOW");
+//       break;
+//     case "GREEN":
+//       console.log("GO");
+//       break;
+//     default:
+//       console.log("Please select from RED, YELLOW OR GREEN");
+//   }
+// }
+// signal("ASD");
+// signal("YELLOW");
+// signal("RED");
+// signal("GREEN");
+
+//Restaurant menu (Pizza, Burger, Pasta, Sandwich).
+// const restaurantMenu = (order) => {
+//   console.log("Select Order from Pizza, Burger, Pasta, Sandwich ");
+//   switch (order) {
+//     case "Pizza":
+//       console.log(`${order}: $5.99`);
+//       break;
+//     case "Burger":
+//       console.log(`${order}: $3.99`);
+//       break;
+//     case "Pasta":
+//       console.log(`${order}: $4.49`);
+//       break;
+//     case "Sandwich":
+//       console.log(`${order}: $2.20`);
+//       break;
+
+//     default:
+//       console.log("Not Available");
+//       break;
+//   }
+// };
+
+// restaurantMenu("Pizza");
+// restaurantMenu("Pasta");
+// restaurantMenu("Pani Puri");
+
+// User role system (Admin, Editor, User, Guest).
+// const userRole = (role) => {
+//   switch (role) {
+//     case "Admin":
+//       console.log("Full Access");
+//       break;
+//     case "Editor":
+//       console.log("Create, Read, Update");
+//       break;
+//     case "User":
+//       console.log("Read Only");
+//       break;
+//     case "Guest":
+//       console.log("Limited Access");
+//       break;
+
+//     default:
+//       console.log("User Role Not Recognized");
+//       break;
+//   }
+// };
+// userRole("User");
+// userRole("Guest");
+// userRole("New User");
+
+// Language selector (English, Hindi, Spanish, Japanese).
+// Payment method (UPI, Card, Cash, Net Banking).
+// Movie genre recommendation based on genre.
+
 //The IF, The ESLE IF and The ELSE
 
 // Topic: Level 3 – Intermediate
