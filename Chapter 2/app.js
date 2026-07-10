@@ -1,4 +1,291 @@
-//For Loop
+//Topic: Nested For Loop
+//Patterns
+
+//     *
+//    * *
+//   *   *
+//  *     *
+// *********
+
+// for (let i = 1; i <= 5; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= 5 - i; j++) {
+//     pattern += " ";
+//   }
+//   for (let k = 1; k <= 2 * i - 1; k++) {
+//     if (k === 1 || k === 2 * i - 1 || i === 1 || i === 5) {
+//       pattern += "*";
+//     } else {
+//       pattern += " ";
+//     }
+//   }
+//   console.log(pattern);
+// }
+
+//REVIEW:
+//     *
+//    ***
+//   *****
+//  *******
+// *********
+
+// for (let i = 1; i <= 5; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= 5 - i; j++) {
+//     pattern += " ";
+//   }
+//   for (let k = 1; k <= 2 * i - 1; k++) {
+//     pattern += "*";
+//   }
+//   console.log(pattern);
+// }
+
+// *****
+// *   *
+// *   *
+// *****
+// for (let i = 1; i <= 4; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= 5; j++) {
+//     if (i === 1 || i === 4 || j === 1 || j === 5) {
+//       pattern += "*";
+//     } else {
+//       pattern += " ";
+//     }
+//   }
+//   console.log(pattern);
+// }
+
+// *****
+// ****
+// ***
+// **
+// *
+
+// for (let i = 1; i <= 5; i++) {
+//   let pattern = "";
+//   for (let j = 5; j >= i; j--) {
+//     pattern += "*";
+//   }
+//   console.log(pattern);
+// }
+
+// for (let i = 1; i <= 5; i++) {
+//   let pattern = "";
+//   for (let j = 5; j >= i; j--) {
+//     pattern += "*";
+//   }
+//   //   if (pattern.length % 2 === 0) {
+//   //     console.log(pattern);
+//   //   }
+//   //   if (pattern.length % 2 !== 0) {
+//   //     console.log(pattern);
+//   //   }
+// }
+
+// *
+// **
+// ***
+// ****
+// *****
+// for (let i = 1; i <= 5; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= i; j++) {
+//     pattern += "*";
+//   }
+//   console.log(pattern);
+// }
+
+//using function
+// function printingPattern(height, symbol) {
+//   for (let row = 1; row <= height; row++) {
+//     let pattern = "";
+//     for (let col = 1; col <= row; col++) {
+//       pattern += symbol;
+//     }
+//     console.log(pattern);
+//   }
+// }
+// printingPattern(20, "#");
+
+//Function for pattern printing - row, column, symbol
+// const patternPrinting = (row, column, symbol) => {
+//   for (let i = 1; i <= row; i++) {
+//     let pattern = "";
+//     for (let j = 1; j <= column; j++) {
+//       pattern += symbol;
+//     }
+//     console.log(`${pattern}`);
+//   }
+// };
+
+// patternPrinting(2, 5, "*");
+
+// Print a rectangle using # instead of *.
+// for (let i = 1; i <= 2; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= 5; j++) {
+//     pattern += "#";
+//   }
+//   console.log(pattern);
+// }
+
+// Print a rectangle using @.
+// for (let i = 1; i <= 3; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= 7; j++) {
+//     pattern += "@";
+//   }
+//   console.log(pattern);
+// }
+
+// Print a rectangle of numbers:
+// 11111
+// 11111
+// 11111
+// for (let i = 1; i <= 3; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= 5; j++) {
+//     pattern += "1";
+//   }
+//   console.log(pattern);
+// }
+
+// AAAA
+// AAAA
+// AAAA
+// for (let i = 1; i <= 3; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= 5; j++) {
+//     pattern += "A";
+//   }
+//   console.log(pattern);
+// }
+
+// $$$$$
+// $$$$$
+// $$$$$
+// for (let i = 1; i <= 3; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= 5; j++) {
+//     pattern += "$";
+//   }
+//   console.log(pattern);
+// }
+
+// *****
+// *****
+// *****
+// for (let i = 1; i <= 3; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= 5; j++) {
+//     pattern += "*";
+//   }
+//   console.log(pattern);
+// }
+
+// *****
+// *****
+// *****
+// *****
+// for (let i = 1; i <= 4; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= 5; j++) {
+//     pattern += "*";
+//   }
+//   console.log(pattern);
+// }
+
+// Print a rectangle of 2 × 5 stars.
+// for (let i = 1; i <= 2; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= 5; j++) {
+//     pattern += "*";
+//   }
+//   console.log(pattern);
+// }
+
+// Print a square of 6 × 6 stars.
+// for (let i = 1; i <= 6; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= 6; j++) {
+//     pattern += "*";
+//   }
+//   console.log(pattern);
+// }
+
+// Print a rectangle of 4 × 8 stars.
+// for (let i = 1; i <= 4; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= 8; j++) {
+//     pattern += "*";
+//   }
+//   console.log(pattern);
+// }
+
+// Print a square of 10 × 10 stars.
+// for (let i = 1; i <= 10; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= 10; j++) {
+//     pattern += "*";
+//   }
+//   console.log(pattern);
+// }
+
+// Take rows and columns as variables instead of hardcoding them.
+// let row = 3;
+// let column = 7;
+// for (let i = 1; i <= row; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= column; j++) {
+//     pattern += "*";
+//   }
+//   console.log(pattern);
+// }
+
+// for (let i = 1; i <= 3; i++) {
+//   for (let j = 1; j <= 3; j++) {
+//     console.log(i, j);
+//   }
+// }
+
+// for (let i = 1; i <= 2; i++) {
+//   for (let j = 1; j <= 5; j++) {
+//     console.log(i, j);
+//   }
+// }
+
+// for (let i = 1; i <= 3; i++) {
+//   console.log(i);
+
+//   for (let j = 1; j <= 3; j++) {
+//     console.log(j);
+//   }
+// }
+
+// let counter = 0;
+// for (let i = 1; i <= 4; i++) {
+//   for (let j = 1; j <= 5; j++) {
+//     console.log(i, j);
+//     counter++;
+//   }
+// }
+// console.log(counter);
+
+// for (let i = 1; i <= 5; i++) {
+//   for (let j = 1; j <= 5; j++) {
+//     console.log(i, j);
+//   }
+// }
+
+// Print seat numbers in a cinema:
+// for (let i = 1; i <= 5; i++) {
+//   for (let j = 1; j <= 5; j++) {
+//     console.log(`Row: ${i} - Seat: ${j}`);
+//   }
+// }
+
+//Topic: For Loop
 // Print two counters simultaneously: One from 1 to 10, One from 10 to 1
 // for (let i = 1, j = 10; i <= 10, j >= 1; i++, j--) {
 //   console.log(i, j);
