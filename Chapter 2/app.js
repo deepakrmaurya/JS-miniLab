@@ -1,3 +1,133 @@
+//For Loop
+// Print two counters simultaneously: One from 1 to 10, One from 10 to 1
+// for (let i = 1, j = 10; i <= 10, j >= 1; i++, j--) {
+//   console.log(i, j);
+// }
+
+// Print two multiplication tables together using two variables.
+// let tableOf5 = 5;
+// let tableOf6 = 6;
+// for (let i = 1; i <= 10; i++) {
+//   console.log(
+//     `${tableOf5} x ${i} = ${tableOf5 * i}`,
+//     `${tableOf6} x ${i} = ${tableOf6 * i}`,
+//   );
+// }
+
+// Build a countdown timer from 60 to 0.
+// for (let i = 60; i >= 0; i--) {
+//   console.log(i + " seconds left...");
+// }
+
+// Create a loop that increments by 1 until 10, then by 5.
+// for (let i = 0; i <= 100; ) {
+//   if (i <= 9) {
+//     console.log(++i);
+//   }
+//   if (i > 9) {
+//     console.log((i += 5));
+//   }
+//   if (i == 100) {
+//     break;
+//   }
+// }
+
+// Use two variables to print: 1 100, 2 99, 3 98
+// for (let i = 1, j = 100; i <= 100, j >= 1; i++, j--) {
+//   console.log(i, j);
+// }
+
+// for (let i = 10; i >= 2; i -= 3) {
+//   console.log(i);
+// }
+
+// for (let i = 1; i <= 5; i += 2) {
+//   console.log(i);
+// }
+
+// for (let i = 2; i <= 20; i *= 2) {
+//   console.log(i);
+// }
+
+// for (let i = 100; i > 1; i /= 2) {
+//   console.log(i);
+// }
+
+// for (let i = 1; i < 50; i *= 3) {
+//   console.log(i);
+// }
+
+// Print multiples of 5 up to 100 using i += 5.
+// for (let i = 0; i <= 100; i += 5) {
+//   console.log(i);
+// }
+
+// Print powers of 2 up to 128 using i *= 2
+// for (let i = 1; i <= 128; i *= 2) {
+//   console.log(i);
+// }
+
+// Print numbers from 1000 to 1, dividing by 10 each iteration (use integer values only).
+// for (let i = 1000; i >= 1; i /= 10) {
+//   console.log(i);
+// }
+
+// Print numbers from 1 to 10.
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
+
+// Print numbers from 10 to 1.
+// for (let i = 10; i >= 1; i--) {
+//   console.log(i);
+// }
+
+// Print even numbers from 1 to 20.
+// for (let i = 1; i <= 20; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+// Print odd numbers from 1 to 20.
+// for (let i = 1; i <= 20; i++) {
+//   if (i % 2 !== 0) {
+//     console.log(i);
+//   }
+// }
+
+// Print your name 10 times.
+// for (let i = 1; i <= 10; i++) {
+//   console.log("Deepak");
+// }
+
+// Print the multiplication table of 5.
+// let tableOf = 5;
+// for (let i = 1; i <= 10; i++) {
+//   console.log(`${tableOf} x ${i} = ${tableOf * i}`);
+// }
+
+// Print all numbers divisible by 3 from 1 to 30.
+// for (let i = 1; i <= 30; i++) {
+//   if (i % 3 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// Print the square of numbers from 1 to 10.
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i * i);
+// }
+
+// Print the cube of numbers from 1 to 10.
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i ** 3);
+// }
+
+// Print numbers from 100 to 1.
+// for (let i = 100; i >= 1; i--) {
+//   console.log(i);
+// }
+
 // Ternary Operator
 // Easy
 // Print "Even" or "Odd".
