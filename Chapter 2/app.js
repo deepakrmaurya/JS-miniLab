@@ -1,5 +1,80 @@
 //Topic: Nested For Loop
-//Patterns
+//Number Pattern
+
+// 98765
+// 87654
+// 76543
+// 65432
+// 54321
+// for (let i = 1; i <= 5; i++) {
+//   let pattern = "";
+//   for (let j = 10; j >= 6; j--) {
+//     pattern += j - i;
+//   }
+//   console.log(pattern);
+// }
+
+// 12345
+// 23456
+// 34567
+// 45678
+// 56789
+// for (let i = 0; i <= 4; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= 5; j++) {
+//     pattern += j + i;
+//   }
+//   console.log(pattern);
+// }
+
+// 12345
+// 12345
+// 12345
+// 12345
+// 12345
+// for (let i = 1; i <= 5; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= 5; j++) {
+//     pattern += j;
+//   }
+//   console.log(pattern);
+// }
+
+// Star Patterns
+//review:
+//     *
+//    ***
+//   *****
+//  *******
+// *********
+//  *******
+//   *****
+//    ***
+//     *
+// for (let i = 1; i <= 5; i++) {
+//   let pattern = "";
+//   for (let j = 1; j <= 5 - i; j++) {
+//     pattern += " ";
+//   }
+//   for (let k = 1; k <= 2 * i - 1; k++) {
+//     pattern += "*";
+//   }
+//   console.log(pattern);
+// }
+
+// for (let i2 = 4; i2 >= 1; i2--) {
+//   let pattern2 = "";
+
+//   for (let j2 = 1; j2 <= 5 - i2; j2++) {
+//     pattern2 += " ";
+//   }
+
+//   for (let k2 = 1; k2 <= 2 * i2 - 1; k2++) {
+//     pattern2 += "*";
+//   }
+
+//   console.log(pattern2);
+// }
 
 //     *
 //    * *
