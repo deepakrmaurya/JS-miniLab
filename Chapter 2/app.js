@@ -1,6 +1,32 @@
-//Topic: Nested For Loop
-//Number Pattern
+// Working with more logical questions
 
+//reverse
+let number = 3456;
+while (number > 0) {
+  let digit = number % 10;
+
+  console.log(digit);
+  number = Math.floor(number / 10);
+}
+
+// function checkVotingEligibility(age) {
+//   if (age >= 18) {
+//     console.log("Eligible");
+//   } else {
+//     console.log("Not Eligible");
+//   }
+// }
+
+// const checkVotingEligibility = (age) =>
+//   age >= 18 ? "Eligible" : "Not Eligible";
+
+// checkVotingEligibility(15);
+// checkVotingEligibility(18);
+// checkVotingEligibility(25);
+
+//Topic: Nested For Loop
+
+//Number Pattern
 // 98765
 // 87654
 // 76543
