@@ -1,5 +1,20 @@
 // Working with more logical questions
 
+//Palindrome
+let number = 32123;
+let original = number;
+let reverse = 0;
+while (number > 0) {
+  let digit = number % 10;
+  reverse = reverse * 10 + digit;
+  number = Math.floor(number / 10);
+}
+if (original === reverse) {
+  console.log("Its a palindrome");
+} else {
+  console.log("It's not a palindrome");
+}
+
 //Reverse a number using function
 // function reverseNumber(number) {
 //   let reverse = 0;
