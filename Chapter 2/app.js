@@ -1,13 +1,112 @@
 // Working with more logical questions
 
-//reverse
-let number = 3456;
-while (number > 0) {
-  let digit = number % 10;
+//Reverse a number using function
+// function reverseNumber(number) {
+//   let reverse = 0;
+//   while (number > 0) {
+//     let digit = number % 10;
+//     reverse = reverse * 10 + digit;
+//     number = Math.floor(number / 10);
+//   }
+//   console.log(reverse);
+// }
 
-  console.log(digit);
-  number = Math.floor(number / 10);
-}
+// reverseNumber(987654321);
+
+//Reverse
+// let number = 12345;
+// let reverse = 0;
+
+// while (number > 0) {
+//   let digit = number % 10;
+//   reverse = reverse * 10 + digit;
+//   number = Math.floor(number / 10);
+// }
+// console.log(reverse);
+
+//Find the 2nd largest digit in the number
+// let number = 92746;
+// let firstHighest = 0;
+// let secondHighest = 0;
+
+// while (number > 0) {
+//   let digit = number % 10;
+//   console.log(digit);
+//   if (digit > firstHighest) {
+//     secondHighest = firstHighest;
+//     firstHighest = digit;
+//   }
+
+//   number = Math.floor(number / 10);
+// }
+// console.log(firstHighest);
+// console.log(secondHighest);
+
+//print number separated by commas
+// let number = 12345;
+// let result = "";
+// while (number > 0) {
+//   let digit = number % 10;
+//   result += digit;
+//   number = Math.floor(number / 10);
+//   if (number > 0) {
+//     result += ", ";
+//   }
+// }
+// console.log(result);
+
+//find the smallest number
+// let number = 96457;
+// let smallestNumber = number;
+// while (number > 0) {
+//   let digit = number % 10;
+//   if (digit < smallestNumber) {
+//     smallestNumber = digit;
+//   }
+//   number = Math.floor(number / 10);
+// }
+// console.log(smallestNumber);
+
+//find the largest number among
+// let number = 459732;
+// let highestNumber = 0;
+// while (number > 0) {
+//   let digit = number % 10;
+//   // console.log(digit);
+//   if (digit > highestNumber) {
+//     highestNumber = digit;
+//   }
+//   number = Math.floor(number / 10);
+// }
+// console.log(highestNumber);
+
+//find last digit of a number
+// let number = 35252;
+// let counter = 0;
+// while (counter < 1) {
+//   let digit = number % 10;
+//   counter++;
+//   console.log(digit);
+// }
+
+//number of digits
+// let number = 98765;
+// let counter = 0;
+// while (number > 0) {
+//   let digit = number % 10;
+//   counter++;
+//   number = Math.floor(number / 10);
+// }
+// console.log(counter);
+
+//reverse
+// let number = 3456;
+// while (number > 0) {
+//   let digit = number % 10;
+
+//   console.log(digit);
+//   number = Math.floor(number / 10);
+// }
 
 // function checkVotingEligibility(age) {
 //   if (age >= 18) {
